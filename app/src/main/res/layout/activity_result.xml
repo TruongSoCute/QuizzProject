@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:gravity="center"
+    android:background="@color/MauBe"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz Test HAS COMPLETE!!"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="@font/neutra"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONGRATULATIONS"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/intelone_base"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUR SCORE:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/neutra"
+        android:gravity="center"
+        />
+    <ProgressBar
+        android:id="@+id/PbScore"
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:max="10"
+        android:progress="1"
+    />
+    <TextView
+        android:id="@+id/TvScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10/100"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:fontFamily="@font/intelone_base"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/TPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player, Ngo Truong."
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:fontFamily="@font/neutra"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        />
+    <Button
+        android:id="@+id/BtnResrart"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_button"
+        android:text="PRESS TO RESTART!!"
+        android:fontFamily="@font/neutra"
+        android:layout_marginEnd="50sp"
+        android:layout_marginStart="50sp"
+        />
+    <Button
+        android:id="@+id/BtnShow"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_button"
+        android:text="PRESS TO SHOW!!"
+        android:fontFamily="@font/neutra"
+        android:layout_marginEnd="50sp"
+        android:layout_marginStart="50sp"
+        />
+</LinearLayout>

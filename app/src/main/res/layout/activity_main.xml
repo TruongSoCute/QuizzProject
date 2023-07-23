@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:gravity="center"
+    android:background="@color/MauBe"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz Test !!"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:fontFamily="@font/neutra"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20sp"
+
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10sp"
+            android:background="@drawable/outline">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WELCOME"
+                android:fontFamily="@font/neutra"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please Enter Your Name"
+                android:fontFamily="@font/intelone_base"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="5sp"
+                android:textColor="@color/less_black"
+                />
+            <EditText
+                android:id="@+id/EtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/outline_thin"
+                android:hint="Name"
+                android:fontFamily="@font/intelone_base"
+                android:drawableStart="@drawable/rename"
+                android:paddingStart="10sp"
+                android:padding="8sp"
+                android:inputType="textCapWords"
+                android:drawablePadding="10sp"
+                android:layout_marginTop="3sp"
+                />
+            <Button
+                android:id="@+id/BtnStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="START NOW!!"
+                android:textColor="@color/black"
+                android:fontFamily="@font/neutra"
+                android:background="@drawable/base_button"
+                android:layout_marginLeft="100sp"
+                android:layout_marginRight="100sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="15sp"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>

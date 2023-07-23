@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizQuestionActivity"
+    android:fillViewport="true"
+    android:background="@color/MauBe"
+    android:padding="20sp"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20sp"
+        >
+
+        <TextView
+            android:id="@+id/TvQuest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mạng Internet Là?"
+            android:fontFamily="@font/neutra"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="20sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            />
+        <TextView
+            android:id="@+id/TvOptionOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/unselected_outline"
+            android:text="Mạng Client-Server"
+            android:fontFamily="@font/intelone_base"
+            android:padding="10sp"
+            android:textColor="@color/less_black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_margin="10sp"
+            />
+        <TextView
+            android:id="@+id/TvOptionTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/unselected_outline"
+            android:text="Mạng Client-Server"
+            android:fontFamily="@font/intelone_base"
+            android:padding="10sp"
+            android:textColor="@color/less_black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_margin="10sp"
+            />
+        <TextView
+            android:id="@+id/TvOptionThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/unselected_outline"
+            android:text="Mạng Client-Server"
+            android:fontFamily="@font/intelone_base"
+            android:padding="10sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_margin="10sp"
+            />
+        <TextView
+            android:id="@+id/TvOptionFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/unselected_outline"
+            android:text="Mạng Client-Server"
+            android:fontFamily="@font/intelone_base"
+            android:padding="10sp"
+            android:textColor="@color/less_black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_margin="10sp"
+            />
+\
+        <Button
+            android:id="@+id/BtnSumbit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUMBIT"
+            android:textSize="25sp"
+            android:fontFamily="@font/neutra"
+            android:background="@drawable/base_button"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="12sp">
+            <ProgressBar
+                android:id="@+id/PbBar"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"
+                android:progress="10"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+            <TextView
+                android:id="@+id/PbText"
+                android:layout_marginLeft="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/10"
+                android:fontFamily="@font/intelone_base"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
